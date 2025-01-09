@@ -1,0 +1,95 @@
+/* font from google. */
+
+
+.sub-title-font {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.title-font {
+  font-family: "Brygada 1918", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* hero */
+#hero{
+  
+  background: border-radius: 16px;
+
+  background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
+  height: 580px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+
+#hero .hero-contents{
+  max-width: 1280px;
+  margin:0 auto;
+    text-align: center;
+    /* padding:632px 244px; */
+
+}
+
+.hero-sub-title{
+          font-size: 32px;
+          font-weight:400px ;
+          text-align: center;
+          color: rgb(255, 255, 255);
+
+
+}
+
+#hero .hero-contents .title{
+
+
+             font-size: 72px;
+             font-weight: 900px;
+             align-items: center;
+             line-height: 100px;
+             color: rgb(255, 255, 255);
+             padding-left: 200px;
+             padding-right: 200px;
+
+
+}
+
+
+
+
+    
+    
+    
+
+
+
+
+
+.banner-sub-title{
+     color: white;
+     font-size: 30px; 
+     
+     
+
+
+}
+.banner-title{
+    font-size: 69px;
+    font-weight: bolder;
+    color: white;
+}
