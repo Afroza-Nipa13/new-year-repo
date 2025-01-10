@@ -21,7 +21,7 @@
 /* hero */
 #hero{
   
-  background: border-radius: 16px;
+  border-radius: 16px;
 
   background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
   height: 580px;
@@ -72,15 +72,7 @@
 
 
 
-    
-    
-    
-
-
-
-
-
-.banner-sub-title{
+  .banner-sub-title{
      color: white;
      font-size: 30px; 
      
@@ -93,3 +85,95 @@
     font-weight: bolder;
     color: white;
 }
+
+.red-color{
+  color: #FF0000;
+}
+
+#offer-box{
+width: 778px;
+margin: 100px auto;
+text-align: center;
+}
+
+#offer-box .title{
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 107px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+.card .card-sub-title{
+
+  color: rgb(255, 0, 0);
+font-size: 21px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 16px;
+}
+
+.card .card-title{
+  color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 50px;
+}
+
+
+#hero1{
+  border-radius: 16px;
+  width: 1330px;
+  height: 620px; 
+  background-size: cover;
+  background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),url("../images/Vectorrr.png") ;
+  
+  background-repeat: no-repeat;
+ 
+  
+  display: flex;
+  justify-items: center;
+  align-items: center;
+ 
+  
+}
+
+
+#hero1.hero1-content{
+
+                
+    
+  max-width: 1280px;
+  margin:0 auto;
+  text-align: center;
+
+              
+              
+}
+
+.hero1-content.hero1-title{
+
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+}
+
+.btn-primary{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+      }
